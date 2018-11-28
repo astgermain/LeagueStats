@@ -17,3 +17,6 @@
 #### 3) Game analysis which takes individual matchs from a players match history and examines stats such as damage dealt, gold earned, and more. Approx 30 hours
 
 ***NOTE: Appoximations are extremely estimated*** 
+
+## -- Reviewer --
+#### Still searching
