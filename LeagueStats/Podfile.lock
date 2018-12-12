@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.0)
+  - DragonService (2.2.0):
+    - Alamofire (~> 4.7)
+  - LeagueAPI (1.2.0)
+
+DEPENDENCIES:
+  - DragonService
+  - LeagueAPI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DragonService
+    - LeagueAPI
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  DragonService: 9735e41c1017ecb7f43570692f9271c61f5d62b9
+  LeagueAPI: c55d2ed64ee6850d82f0a21f9057b62838a08690
+
+PODFILE CHECKSUM: 92b7553e4d78a6123b8097ae3b7953a5bd66dcf4
+
+COCOAPODS: 1.5.3

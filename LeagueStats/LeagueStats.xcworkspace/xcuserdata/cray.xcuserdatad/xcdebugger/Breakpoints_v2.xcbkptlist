@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.413376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "Summoner"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.__allocating_init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.490922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.557942"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.414086"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "Summoner"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.__allocating_init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566256998.663728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566256998.6780781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4144469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "Summoner"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.__allocating_init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.606061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.618957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.6316071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2790">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.414788"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.__allocating_init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.6466399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.658049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(from: Swift.Decoder) throws -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.671156"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2790">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4151551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.415499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.415827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(id:accountId:puuid:name:level:iconId:revisionDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.__allocating_init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.719839"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeagueAPI.Summoner.init(id: LeagueAPI.SummonerId, accountId: LeagueAPI.AccountId, puuid: LeagueAPI.SummonerPuuid, name: Swift.String, level: Swift.Int64, iconId: LeagueAPI.ProfileIconId, revisionDate: LeagueAPI.Datetime) -&gt; LeagueAPI.Summoner"
+                  moduleName = "LeagueAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+                  timestampString = "566236765.729851"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4162199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init(id:accountId:puuid:name:level:iconId:revisionDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4165519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init(id:accountId:puuid:name:level:iconId:revisionDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4169"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(id:accountId:puuid:name:level:iconId:revisionDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.417263"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "init(id:accountId:puuid:name:level:iconId:revisionDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.4175971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.417958"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.418292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.41862"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.418979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.419333"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
+            timestampString = "566237727.419665"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/RankedPosition.swift"
+            timestampString = "566256998.309718"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/RankedPosition.swift"
+            timestampString = "566256998.309873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/RankedPosition.swift"
+            timestampString = "566256998.310004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/RankedPosition.swift"
+            timestampString = "566256998.3101079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/RankedPosition.swift"
+            timestampString = "566256998.3102109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
