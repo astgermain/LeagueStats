@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -282,7 +282,7 @@
 /* Begin PBXFileReference section */
 		0028FB48EAD5C76FD91C3F1532201431 /* ChampionRole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionRole.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/ChampionRole.swift; sourceTree = "<group>"; };
 		003419D80C7DC0D82AC26D1E698DB883 /* GameId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameId.swift; path = LeagueAPI/LeagueAPI/Types/GameId.swift; sourceTree = "<group>"; };
-		00A199EF5259F355BAF60520245A0156 /* Pods_LeagueStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeagueStats.framework; path = "Pods-LeagueStats.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A199EF5259F355BAF60520245A0156 /* Pods_LeagueStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E9FC3B17369ED8A2CB05EF4D71180 /* League.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = League.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/League.swift; sourceTree = "<group>"; };
 		0583BC3AD29B7D7B0B87B1F347E7417C /* ChampionSpell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionSpell.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/ChampionSpell.swift; sourceTree = "<group>"; };
 		0751A3E73B4F62A5DBA8782027CAF8EF /* QueueMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueueMode.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/QueueMode.swift; sourceTree = "<group>"; };
@@ -335,13 +335,13 @@
 		2EC65FA6F5F20B3C89FBA0E619A8E92A /* RawRequester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RawRequester.swift; path = LeagueAPI/LeagueAPI/DataAccess/RawRequester.swift; sourceTree = "<group>"; };
 		2FC2A123A66FA178CC943E8DF6ADC834 /* DataRequestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataRequestExtensions.swift; path = Sources/DragonService/Extensions/DataRequestExtensions.swift; sourceTree = "<group>"; };
 		2FE3733EC7D5A3D60C74F4D7837DAC49 /* DurationDelayedRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DurationDelayedRequest.swift; path = LeagueAPI/LeagueAPI/Models/FrameworkModels/RequestModels/DurationDelayedRequest.swift; sourceTree = "<group>"; };
-		30AACED206B641C74C12968140EEDD0F /* DragonService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragonService.framework; path = DragonService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AACED206B641C74C12968140EEDD0F /* DragonService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DragonService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31652F8866AA11C12B94281B6A7E11AC /* ChampionMasteryMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionMasteryMethod.swift; path = LeagueAPI/LeagueAPI/Models/FrameworkModels/Methods/ChampionMasteryMethod.swift; sourceTree = "<group>"; };
 		31736DC05E79C2FCB62A2F5CBB9CD67D /* MatchPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPosition.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/MatchPosition.swift; sourceTree = "<group>"; };
 		32C70FB5CFED898D22D914360DEC5199 /* SummonerMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SummonerMethod.swift; path = LeagueAPI/LeagueAPI/Models/FrameworkModels/Methods/SummonerMethod.swift; sourceTree = "<group>"; };
 		32E6F1F29934DC70D73BB4B868EC91D9 /* ProfileIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileIcon.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/ProfileIcon.swift; sourceTree = "<group>"; };
 		335A56692D2C9037459304C6B40534B8 /* PickType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickType.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/PickType.swift; sourceTree = "<group>"; };
-		33D9038EF6DD3062BB8D2B58F19CD6E8 /* Pods_LeagueStatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeagueStatsUITests.framework; path = "Pods-LeagueStatsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D9038EF6DD3062BB8D2B58F19CD6E8 /* Pods_LeagueStatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueStatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B3153D2E02A60588ADCD3F94B60045 /* ServiceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceProxy.swift; path = LeagueAPI/LeagueAPI/Models/FrameworkModels/ServiceProxy.swift; sourceTree = "<group>"; };
 		3533BFE2EEAD4D6B2C1294BCB04D5806 /* MatchReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchReference.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/MatchReference.swift; sourceTree = "<group>"; };
 		367E0E79DC046C2D5280597C06AB5974 /* RateLimitManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RateLimitManager.swift; path = LeagueAPI/LeagueAPI/Models/FrameworkModels/RateLimitManager.swift; sourceTree = "<group>"; };
@@ -417,7 +417,7 @@
 		7B0E04A91D4E19FCC4C8C12186B61B91 /* DDragonChampionFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDragonChampionFile.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/DDragonChampionFile.swift; sourceTree = "<group>"; };
 		7E9F4E0A82C704950C6ED4B3CAE75DFC /* Place.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Place.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/Place.swift; sourceTree = "<group>"; };
 		7F1FB66B2699C454B2B3466581047F3C /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/Map.swift; sourceTree = "<group>"; };
-		818D5D8A725DB5D0A88EB7AD3F3C0586 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818D5D8A725DB5D0A88EB7AD3F3C0586 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F08B393DE8ED04B654750461C2ED34 /* ProfileIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileIcons.swift; path = Sources/DragonService/Models/ProfileIcons.swift; sourceTree = "<group>"; };
 		82738167FB26FE187FB8416125B37A9F /* Rune.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rune.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/Rune.swift; sourceTree = "<group>"; };
 		837BA158BE6072F634D35768C9341F53 /* RuneId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuneId.swift; path = LeagueAPI/LeagueAPI/Types/RuneId.swift; sourceTree = "<group>"; };
@@ -431,7 +431,7 @@
 		8F442788293BF7100E27011D214B8323 /* ChampionId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionId.swift; path = LeagueAPI/LeagueAPI/Types/ChampionId.swift; sourceTree = "<group>"; };
 		91AB06609B0504835ED2BFA232172AE9 /* SummonerSpells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SummonerSpells.swift; path = Sources/DragonService/Models/SummonerSpells.swift; sourceTree = "<group>"; };
 		91AFCD26DCBEB1A0A2E35DAB72BB6EA8 /* Pods-LeagueStatsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeagueStatsUITests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97142D6DC78F016BC83F0F28E3300BDE /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/RiotEnums/Platform.swift; sourceTree = "<group>"; };
 		985A54A295C3B0AC4195C7064DE5FC9D /* TournamentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TournamentDetails.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/TournamentDetails.swift; sourceTree = "<group>"; };
 		98BF8C4C55EC6C64E72057C73CEFAB6C /* LegacyRune.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyRune.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/LegacyRune.swift; sourceTree = "<group>"; };
@@ -449,14 +449,14 @@
 		A4F6FE11C666BDEC29737B35B00A704A /* ChampionsDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionsDetails.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/ChampionsDetails.swift; sourceTree = "<group>"; };
 		A5529D83DAE0C985AECADB514E7A0CB9 /* ChampionAdditionalDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionAdditionalDetails.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/ChampionAdditionalDetails.swift; sourceTree = "<group>"; };
 		A9E1DDD4CDFF537EEB89FF5704ABB067 /* FeaturedGames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeaturedGames.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/FeaturedGames.swift; sourceTree = "<group>"; };
-		AAC4F1D42FF47D5BD8293E0453234E55 /* LeagueAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeagueAPI.framework; path = LeagueAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC4F1D42FF47D5BD8293E0453234E55 /* LeagueAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeagueAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACDBE64247999A9909BC9D39A4410D2 /* Pods-LeagueStatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeagueStatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACAF83BE1B45C5A8069F5A86EE81D4BE /* APIBusiness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIBusiness.swift; path = LeagueAPI/LeagueAPI/Business/RiotAPIBusiness/APIBusiness.swift; sourceTree = "<group>"; };
 		AE09E811792EB5AE3ABD0A9C4136410D /* ChampionRotations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChampionRotations.swift; path = LeagueAPI/LeagueAPI/Models/RiotModels/ChampionRotations.swift; sourceTree = "<group>"; };
 		AEF7744E0846973F0F2A088EEE0A8980 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		AFF7D21CCAB0596917A132B85A13E57E /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Sources/DragonService/Models/Common.swift; sourceTree = "<group>"; };
 		B1A727336CB32D35C9B05B8EC8FADCAF /* ItemData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemData.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/ItemData.swift; sourceTree = "<group>"; };
-		B281778996121B4990E43CAA89A23019 /* Pods_LeagueStatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeagueStatsTests.framework; path = "Pods-LeagueStatsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B281778996121B4990E43CAA89A23019 /* Pods_LeagueStatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueStatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B391DA4098BF2A10DA4984E8D1012C7F /* RankedBusiness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RankedBusiness.swift; path = LeagueAPI/LeagueAPI/Business/RiotAPIBusiness/RankedBusiness.swift; sourceTree = "<group>"; };
 		B5307DAB71144F155724E2C97B3BD90A /* Champions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Champions.swift; path = Sources/DragonService/Models/Champions.swift; sourceTree = "<group>"; };
 		B54705C52BABCA6E40839A889AFCBF84 /* DDragonProfileIconsFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDragonProfileIconsFile.swift; path = LeagueAPI/LeagueAPI/Models/DataDragonModels/DDragonProfileIconsFile.swift; sourceTree = "<group>"; };
@@ -794,7 +794,6 @@
 				B57356AEB5DDF653CB648614184CC1C1 /* Version.swift */,
 				B56C7DFBDD9E7D4FE6A1E1C226EEB760 /* Support Files */,
 			);
-			name = LeagueAPI;
 			path = LeagueAPI;
 			sourceTree = "<group>";
 		};
@@ -843,7 +842,6 @@
 				91AB06609B0504835ED2BFA232172AE9 /* SummonerSpells.swift */,
 				359C7A1590309AE45302D20D4A3BC12E /* Support Files */,
 			);
-			name = DragonService;
 			path = DragonService;
 			sourceTree = "<group>";
 		};
@@ -984,7 +982,6 @@
 				AEF7744E0846973F0F2A088EEE0A8980 /* Validation.swift */,
 				8CD4B9D8E69C1023DBFDCCF0CF874658 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1165,6 +1162,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					E76458C58C9140B6A16D60547E68E80C = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1553,7 +1555,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1620,7 +1622,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1982,8 +1984,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

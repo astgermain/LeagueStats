@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C09BA9021BDE17600973712 /* LiveGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09BA8F21BDE17600973712 /* LiveGame.swift */; };
 		2C09BA9221BDE70C00973712 /* Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09BA9121BDE70C00973712 /* Summoner.swift */; };
-		2C09BA9421BDECA700973712 /* LiveGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09BA9321BDECA700973712 /* LiveGameViewController.swift */; };
 		2C09BA9821BDF34500973712 /* ApiAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09BA9721BDF34500973712 /* ApiAccess.swift */; };
 		2C5ED7B021A23D21000478FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5ED7AF21A23D21000478FF /* AppDelegate.swift */; };
 		2C5ED7B521A23D21000478FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5ED7B321A23D21000478FF /* Main.storyboard */; };
@@ -17,6 +16,9 @@
 		2C5ED7BA21A23D21000478FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5ED7B821A23D21000478FF /* LaunchScreen.storyboard */; };
 		2C5ED7C521A23D21000478FF /* LeagueStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5ED7C421A23D21000478FF /* LeagueStatsTests.swift */; };
 		2C5ED7D021A23D21000478FF /* LeagueStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5ED7CF21A23D21000478FF /* LeagueStatsUITests.swift */; };
+		2CAA42D821C1D8BD008C6EEE /* LiveGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA42D721C1D8BD008C6EEE /* LiveGameVC.swift */; };
+		2CB00A7521C2B2BF00476D64 /* LiveGameResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB00A7421C2B2BF00476D64 /* LiveGameResultsVC.swift */; };
+		2CE09B4E21C1BD840079A50E /* SubButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE09B4D21C1BD840079A50E /* SubButton.swift */; };
 		36452A9830E14AAA68321AD3 /* Pods_LeagueStatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835E5739F9A90FE5C84AA60 /* Pods_LeagueStatsTests.framework */; };
 		5D3F746E852AA4F65B45BE7E /* Pods_LeagueStatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B446BC592B831C929C5CCD5 /* Pods_LeagueStatsUITests.framework */; };
 		A000009914CC74D3A4E257A5 /* Pods_LeagueStats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31171880DBD1E0F8EBEDBFF /* Pods_LeagueStats.framework */; };
@@ -43,7 +45,6 @@
 		2235DAA3BEA84AEB784F8E90 /* Pods-LeagueStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueStats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueStats/Pods-LeagueStats.debug.xcconfig"; sourceTree = "<group>"; };
 		2C09BA8F21BDE17600973712 /* LiveGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGame.swift; sourceTree = "<group>"; };
 		2C09BA9121BDE70C00973712 /* Summoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summoner.swift; sourceTree = "<group>"; };
-		2C09BA9321BDECA700973712 /* LiveGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGameViewController.swift; sourceTree = "<group>"; };
 		2C09BA9721BDF34500973712 /* ApiAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAccess.swift; sourceTree = "<group>"; };
 		2C5ED7AC21A23D21000478FF /* LeagueStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5ED7AF21A23D21000478FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +58,9 @@
 		2C5ED7CB21A23D21000478FF /* LeagueStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5ED7CF21A23D21000478FF /* LeagueStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueStatsUITests.swift; sourceTree = "<group>"; };
 		2C5ED7D121A23D21000478FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAA42D721C1D8BD008C6EEE /* LiveGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveGameVC.swift; sourceTree = "<group>"; };
+		2CB00A7421C2B2BF00476D64 /* LiveGameResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveGameResultsVC.swift; sourceTree = "<group>"; };
+		2CE09B4D21C1BD840079A50E /* SubButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubButton.swift; sourceTree = "<group>"; };
 		34CAC885E021F52CF1360DE6 /* Pods-LeagueStatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueStatsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueStatsUITests/Pods-LeagueStatsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B446BC592B831C929C5CCD5 /* Pods_LeagueStatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueStatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D23547D5D2295360E0085D /* Pods-LeagueStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueStats.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueStats/Pods-LeagueStats.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,10 +142,12 @@
 				2C5ED7B621A23D21000478FF /* Assets.xcassets */,
 				2C5ED7B821A23D21000478FF /* LaunchScreen.storyboard */,
 				2C5ED7BB21A23D21000478FF /* Info.plist */,
+				2CAA42D721C1D8BD008C6EEE /* LiveGameVC.swift */,
 				2C09BA8F21BDE17600973712 /* LiveGame.swift */,
 				2C09BA9121BDE70C00973712 /* Summoner.swift */,
-				2C09BA9321BDECA700973712 /* LiveGameViewController.swift */,
 				2C09BA9721BDF34500973712 /* ApiAccess.swift */,
+				2CE09B4D21C1BD840079A50E /* SubButton.swift */,
+				2CB00A7421C2B2BF00476D64 /* LiveGameResultsVC.swift */,
 			);
 			path = LeagueStats;
 			sourceTree = "<group>";
@@ -241,19 +247,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					2C5ED7AB21A23D21000478FF = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					2C5ED7BF21A23D21000478FF = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C5ED7AB21A23D21000478FF;
 					};
 					2C5ED7CA21A23D21000478FF = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C5ED7AB21A23D21000478FF;
 					};
@@ -390,11 +399,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE09B4E21C1BD840079A50E /* SubButton.swift in Sources */,
+				2CB00A7521C2B2BF00476D64 /* LiveGameResultsVC.swift in Sources */,
 				2C09BA9021BDE17600973712 /* LiveGame.swift in Sources */,
 				2C5ED7B021A23D21000478FF /* AppDelegate.swift in Sources */,
 				2C09BA9221BDE70C00973712 /* Summoner.swift in Sources */,
+				2CAA42D821C1D8BD008C6EEE /* LiveGameVC.swift in Sources */,
 				2C09BA9821BDF34500973712 /* ApiAccess.swift in Sources */,
-				2C09BA9421BDECA700973712 /* LiveGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +474,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -470,6 +482,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -520,6 +533,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -527,6 +541,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -566,7 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -581,7 +596,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -597,7 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueStats.app/LeagueStats";
 			};
@@ -614,7 +629,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueStats.app/LeagueStats";
 			};
@@ -630,7 +645,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStatsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LeagueStats;
 			};
@@ -646,7 +661,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cray.LeagueStatsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LeagueStats;
 			};

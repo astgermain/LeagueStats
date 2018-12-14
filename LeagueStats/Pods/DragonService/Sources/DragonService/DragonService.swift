@@ -357,7 +357,7 @@ extension DragonService {
         case Data = "data"
         case Champion = "champion"
     }
-
+    
     public enum RegionConstants: String, CaseIterable {
         case RU = "RU"
         case BR = "BR"
@@ -370,6 +370,7 @@ extension DragonService {
         case LAN = "LAN"
         case LAS = "LAS"
     }
+ 
 
     private enum ServiceConstants: String {
         case Cdn = "cdn"

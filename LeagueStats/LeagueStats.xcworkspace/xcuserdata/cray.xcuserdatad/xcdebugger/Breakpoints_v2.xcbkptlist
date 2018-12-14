@@ -74,12 +74,12 @@
                   moduleName = "LeagueAPI"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
-                  timestampString = "566256998.663728"
+                  timestampString = "566450912.964819"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "23">
+                  offsetFromSymbolStart = "19">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -89,12 +89,12 @@
                   moduleName = "LeagueAPI"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/cray/Desktop/LeagueStats/Pods/LeagueAPI/LeagueAPI/LeagueAPI/Models/RiotModels/Summoner.swift"
-                  timestampString = "566256998.6780781"
+                  timestampString = "566450912.987303"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
                   endingLineNumber = "32"
-                  offsetFromSymbolStart = "66">
+                  offsetFromSymbolStart = "118">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -558,6 +558,38 @@
             startingLineNumber = "40"
             endingLineNumber = "40"
             landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeagueStats/LiveGameResultsVC.swift"
+            timestampString = "566450265.52935"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "525"
+            endingLineNumber = "525"
+            landmarkName = "getLiveGame(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeagueStats/LiveGameResultsVC.swift"
+            timestampString = "566450265.538929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "565"
+            endingLineNumber = "565"
+            landmarkName = "getLiveGame(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
