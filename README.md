@@ -1,6 +1,13 @@
 # LeagueStats
 
 
+
+
+# - Milestone 4/Final Info -
+## -- How to run --
+#### Compiled using xCode 10.1 on a virtual machine of Mac OS 10.14 Mojave(beta)
+#### Download and open LeagueStats.xcworkspace, and run. It should work hopefully
+
 # - Milestone 1 -
 ## -- Proposal --
 #### I propose to create an iOS app that makes use of the Riot API, https://developer.riotgames.com/, which is used to access game data for the popular game League of Legends, and create an app that tracks live game data including scores, items, kill/death/assist rations, and more. In addition, I am also considering features such as server status, item build stat tracking, profile search, and possibly game analysis. I will be using LeagueAPI found in CocoaPods which is the most current pod I can find available.
