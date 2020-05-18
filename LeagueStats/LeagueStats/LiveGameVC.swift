@@ -224,12 +224,12 @@ class LiveGameVC: UIViewController {
                         //self.fname.text = "\(summoner.name)"
                         guard let queue4 = Queue(.RankedSolo5V5) else { return }
                         print(summoner.id)
-                        self.league.riotAPI.getRankedPosition(for: summoner.id, in: queue4, on: .NA) { (rankedPosition, errorMsg) in
+                        self.league.riotAPI.getRankedEntry(for: summoner.id, in: queue4, on: .NA) { (rankedPosition, errorMsg) in
                             //print(rankedPosition?.leagueId)
                             //print("works")
                             if let rankedPosition = rankedPosition {
                                 DispatchQueue.main.async {
-                                    self.tierArr[index]!.image = UIImage(named: rankedPosition.tier)
+                                    //self.tierArr[index]!.image = UIImage(named: rankedPosition.tier)
                                     self.rankArr[index]!.text = "\(rankedPosition.leagueInfo.rank)"
                                     self.lpArr[index]!.text = "\(rankedPosition.leagueInfo.leaguePoints)"
                                 }

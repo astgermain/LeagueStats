@@ -322,7 +322,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LeagueStats/Pods-LeagueStats-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LeagueStats/Pods-LeagueStats-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DragonService/DragonService.framework",
 				"${BUILT_PRODUCTS_DIR}/LeagueAPI/LeagueAPI.framework",
@@ -335,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueStats/Pods-LeagueStats-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeagueStats/Pods-LeagueStats-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27A987493BFB1A85A3CEECD2 /* [CP] Check Pods Manifest.lock */ = {

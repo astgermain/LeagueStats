@@ -8,6 +8,10 @@
 
 import Foundation
 
+#if canImport(UIKit)
+    import UIKit
+#endif
+
 public class LeagueAPI: APIClient {
     
     public private(set) var riotAPI: RiotAPI
@@ -115,5 +119,11 @@ public class LeagueAPI: APIClient {
     
     public func getRune(byName name: String, handler: @escaping (Rune?, String?) -> Void) {
         DataDragonRuneBusiness.getRune(byName: name, completion: handler)
+    }
+    
+    // MARK: - Ranked Emblems
+    
+    public func getEmblem(for tier: RankedTier) -> UIImage? {
+        return RankedTierBusiness.getEmblem(for: tier)
     }
 }

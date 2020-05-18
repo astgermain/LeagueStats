@@ -1,6 +1,21 @@
 # LeagueAPI
 
-League API is a League of Legends Framework in Swift. It provides an easy way to get League's data into your iOS application.
+[![Build Status](https://travis-ci.com/Kelmatou/LeagueAPI.svg?branch=master)](https://travis-ci.org/Kelmatou/LeagueAPI)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/LeagueAPI.svg)](https://img.shields.io/cocoapods/v/LeagueAPI.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/cocoapods/p/LeagueAPI.svg?style=flat)](https://github.com/Kelmatou/LeagueAPI)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Kelmatou/LeagueAPI/blob/master/LICENSE)
+
+<p align="center">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <img width="200" src="https://github.com/Kelmatou/LeagueAPI/blob/master/screenshots/devices.png">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</p>
+League API is a League of Legends Framework in Swift. It provides an easy way to get League's data into your iOS, WatchOS, TvOS and MacOS application.
+
+**Support League of Legends, Clash, Teamfight Tactics and League of Runnetera APIs**
+
+<img width="200" src="https://github.com/Kelmatou/LeagueAPI/blob/master/screenshots/homepage.png"> <img width="200" src="https://github.com/Kelmatou/LeagueAPI/blob/master/screenshots/live_game.gif"> <img width="200" src="https://github.com/Kelmatou/LeagueAPI/blob/master/screenshots/history.gif"> <img width="200" src="https://github.com/Kelmatou/LeagueAPI/blob/master/screenshots/champion_info.png">
 
 ## 🚧 Installation 🚧
 
@@ -41,7 +56,16 @@ If none of these helped you, open an issue describing your problem and I'll try 
 
 ## 📋 Requirements 📋
 
-The only required element from the framework user is a Riot API Key.
+### 📦 Minimum versions 📦
+
+📱 iOS 8.1  
+⌚ WatchOS 2.0  
+📺 TvOS 9.0  
+💻 MacOS 10.9 (Mavericks)  
+
+### 🔑 Riot API Key 🔑
+
+To use LeagueAPI, you'll require a Riot API Key.
 You'll get one by visiting https://developer.riotgames.com. Create an account and on you dashboard, you'll be able to generate your key.
 By default, Riot will generate a 'Development Key', which expires in 24h. When your application is ready to be deployed and respects Riot API usage conditions, you can apply for a 'Production Key'.
 Please note that you should agree with [Riot API usage policy](https://developer.riotgames.com/policies.html)
@@ -51,6 +75,8 @@ Please note that you should agree with [Riot API usage policy](https://developer
 Starting using this framework requires you to create an instance of LeagueAPI by writing:
 
 `let league = LeagueAPI(APIToken: "*INSERT YOUR KEY HERE*")`
+
+Now use this instance everywhere, you shouldn't recreate the LeagueAPI variable.
 
 ## 🧐 And then? 🧐
 
@@ -62,9 +88,11 @@ LeagueAPI has 2 major parts:
 
 Riot API provides data related to players, that are evolving when you play. LeagueAPI offers a safe (all problems such as key's rate limit are handled)  wrapper on this Riot service. It is accessible from `league.riotAPI`. From there, you'll access many informations on:
 
+**League of Legends**
 * [Summoners](https://github.com/Kelmatou/LeagueAPI/wiki/Summoners)
 * [Spectator/Live Game](https://github.com/Kelmatou/LeagueAPI/wiki/Spectator---Live-Game)
 * [Ranked/Leagues](https://github.com/Kelmatou/LeagueAPI/wiki/Ranked---Leagues)
+* [Ranked/Leagues EXP](https://github.com/Kelmatou/LeagueAPI/wiki/Ranked-Leagues---EXP)
 * [Match History](https://github.com/Kelmatou/LeagueAPI/wiki/Match-History)
 * [Champion Mastery](https://github.com/Kelmatou/LeagueAPI/wiki/Champion-Mastery)
 * [Champions](https://github.com/Kelmatou/LeagueAPI/wiki/Champions)
@@ -73,8 +101,16 @@ Riot API provides data related to players, that are evolving when you play. Leag
 * [Tournament Stub](https://github.com/Kelmatou/LeagueAPI/wiki/Tournament-Stub)
 * [Tournaments](https://github.com/Kelmatou/LeagueAPI/wiki/Tournaments)
 
-**LeagueAPI now uses Riot API v4, as v3 will be deprecated on 28th january 2019.**  
-**❗️Upgrading to LeagueAPI 1.2.0 will break SummonerId or AccountId you may store.❗️**
+**Clash**
+* [Clash](https://github.com/Kelmatou/LeagueAPI/wiki/Clash)
+
+**Teamfight Tactics**
+* [Summoners](https://github.com/Kelmatou/LeagueAPI/wiki/TFT-Summoners)
+* [Ranked](https://github.com/Kelmatou/LeagueAPI/wiki/TFT-Ranked-Leagues)
+* [Match History](https://github.com/Kelmatou/LeagueAPI/wiki/TFT-Match-History)
+
+**Leagueof Runnetera**
+* [Ranked](https://github.com/Kelmatou/LeagueAPI/wiki/Runnetera-Ranked)
 
 ### Custom Methods 
 
@@ -86,6 +122,7 @@ Some League of Legends data only change with patches (champions, items...). Thos
 * [Items](https://github.com/Kelmatou/LeagueAPI/wiki/Items)
 * [Summoner Spells](https://github.com/Kelmatou/LeagueAPI/wiki/Summoner-Spells)
 * [Runes](https://github.com/Kelmatou/LeagueAPI/wiki/Runes)
+* [Ranked Tier](https://github.com/Kelmatou/LeagueAPI/wiki/Ranked-Tiers)
 
 Full documentation is available [here](https://github.com/Kelmatou/LeagueAPI/wiki).  
 Note that only the last release will appear in the documentation. See previous revisions for older LeagueAPI versions.

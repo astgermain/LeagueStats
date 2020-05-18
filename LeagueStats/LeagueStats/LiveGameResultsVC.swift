@@ -219,7 +219,7 @@ class LiveGameResultsVC: UIViewController {
     func bannedChampionImage(championName: String, imageViewNum: Int){
         
         DragonService.Champion().list(version: versionNum, locale: localeVer, completionHandler: { (champions) in
-            //print(champions.data["Ahri"]!.name)
+            print(champions.data[championName]!.name)
             //print(champions.data["Ahri"]!.lore)
             print(champions.data[championName]!.image)
             let campPaths = [self.versionNum, "img", "champion", champions.data[championName]!.image.full]
@@ -416,11 +416,11 @@ class LiveGameResultsVC: UIViewController {
                         }
                         
                         guard let queue = Queue(.RankedSolo5V5) else { return }
-                        self.league.riotAPI.getRankedPosition(for: part.summonerId!, in: queue, on: .NA) { (rankedPosition, errorMsg) in
+                        self.league.riotAPI.getRankedEntry(for: part.summonerId!, in: queue, on: .NA) { (rankedPosition, errorMsg) in
                             if let rankedPosition = rankedPosition {
                                 //rankedPosition.tier
                                 DispatchQueue.main.async {
-                                self.tierSDArr[index]!.image = UIImage(named: rankedPosition.tier)
+                                //self.tierSDArr[index]!.image = UIImage(named: rankedPosition.tier)
                                 self.rankSDArr[index]!.text = "\(rankedPosition.leagueInfo.rank)"
                                 self.lpSDArr[index]!.text = "\(rankedPosition.leagueInfo.leaguePoints)"
                                 //print(rankedPosition[0].leagueInfo.rank)
@@ -435,11 +435,11 @@ class LiveGameResultsVC: UIViewController {
                         }
                         
                         guard let queue2 = Queue(.RankedFlex5V5) else { return }
-                        self.league.riotAPI.getRankedPosition(for: part.summonerId!, in: queue2, on: .NA) { (rankedPosition, errorMsg) in
+                        self.league.riotAPI.getRankedEntry(for: part.summonerId!, in: queue2, on: .NA) { (rankedPosition, errorMsg) in
                             if let rankedPosition = rankedPosition {
                                 //rankedPosition.tier
                                 DispatchQueue.main.async {
-                                self.tierFArr[index]!.image = UIImage(named: rankedPosition.tier)
+                                //self.tierFArr[index]!.image = UIImage(named: rankedPosition.tier)
                                 self.rankFArr[index]!.text = "\(rankedPosition.leagueInfo.rank)"
                                 self.lpFArr[index]!.text = "\(rankedPosition.leagueInfo.leaguePoints)"
                                 //print(rankedPosition[0].leagueInfo.rank)

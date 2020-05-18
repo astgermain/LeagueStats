@@ -61,7 +61,7 @@ internal class LeagueRequester {
             }
             self.key.rateLimitManager.countRequestReceived(for: method)
             self.key.rateLimitManager.update(for: method, headers: headers)
-            if responseCode == .Forbidden && headers != nil && headers!["Retry-After"] != nil {
+            if responseCode == .RateLimitExceeded && headers != nil && headers!["Retry-After"] != nil {
                 self.handleRateLimitExceeded(headers: headers, method: method, handler: handler)
             }
             else if responseCode == .Forbidden && method is TournamentMethod {
@@ -105,6 +105,7 @@ internal class LeagueRequester {
         if exploring {
             let exploringRequest: ExploringLeagueRequest<ResultType> = ExploringLeagueRequest(identifier: identifier, handler: { (result, error) in
                 let exploringRequestCreated = LeagueRequester.exploringRequests.removeFirst(where: { $0.getidentifier() == identifier })
+                self.key.rateLimitManager.exploringAppRateLimit = false
                 if let exploringRequestCreated = exploringRequestCreated {
                     exploringRequestCreated.getWaitingRequests().forEach { $0.request() }
                 }
@@ -145,11 +146,19 @@ internal class LeagueRequester {
     }
     
     private func handleRateLimitExceeded<ResultType: Decodable>(headers: RESTRequester.Headers?, method: LeagueMethod, handler: @escaping (ResultType?, String?) -> Void) {
+        if self.key.rateLimitManager.exploringAppRateLimit {
+            Logger.warning("App Rate Limit violation! LeagueAPI tried to reach Riot API but first call received App Rate Limit Exception. This may happen and is a normal behavior but if it happens to frequently may result in blacklist of the API key")
+        }
+        else {
+            Logger.error("App Rate Limit violation! Make sure you created only one LeagueAPI object in your application. If this happens frequently, please open an issue at https://github.com/Kelmatou/LeagueAPI/issues")
+        }
         if let headers = headers, let retryAfter = headers["Retry-After"] as? Int {
             let durationUntilRateLimitPasses: Duration = Duration(seconds: Double(retryAfter))
+            Logger.error("Request is not lost and will be re-executed in \(durationUntilRateLimitPasses.seconds)s")
             self.dispatchRequest(in: durationUntilRateLimitPasses, method: method, handler: handler)
         }
         else {
+            Logger.error("Request is not lost and will be delayed")
             self.handleRequestRefused(method: method, handler: handler)
         }
     }
@@ -168,7 +177,7 @@ internal class LeagueRequester {
     private func generateRequestIdentifier() -> Int {
         var random: Int = Int(arc4random_uniform(UInt32.max))
         while LeagueRequester.delayedRequests.contains(where: { $0.identifier == random }) {
-            random = Int(arc4random() * UInt32.max)
+            random = Int(arc4random_uniform(UInt32.max))
         }
         return random
     }

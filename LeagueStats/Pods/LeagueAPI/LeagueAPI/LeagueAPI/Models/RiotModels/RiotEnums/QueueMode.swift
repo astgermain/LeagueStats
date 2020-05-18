@@ -83,7 +83,9 @@ public class QueueMode {
         case OdysseyCrewMember = 1050
         case OdysseyCaptain = 1060
         case OdysseyOnslaught = 1070
-        case NexusBlitz = 1200
+        case TeamFightTactics = 1090
+        case RankedTeamFightTactics = 1100
+        case NexusBlitz = 1200 // Queue mode deprecated in patch 9.2
         case Unknown = -1
     }
     
@@ -249,6 +251,10 @@ public class QueueMode {
             self.init(mode: .OdysseyCaptain, place: .CrashSite)
         case QueueModes.OdysseyOnslaught.rawValue:
             self.init(mode: .OdysseyOnslaught, place: .CrashSite)
+        case QueueModes.TeamFightTactics.rawValue:
+            self.init(mode: .TeamFightTactics, place: .Convergence)
+        case QueueModes.RankedTeamFightTactics.rawValue:
+            self.init(mode: .RankedTeamFightTactics, place: .Convergence)
         case QueueModes.NexusBlitz.rawValue:
             self.init(mode: .NexusBlitz, place: .NexusBlitz)
         default:

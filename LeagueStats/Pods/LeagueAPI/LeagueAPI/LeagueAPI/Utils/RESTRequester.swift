@@ -6,7 +6,11 @@
 //  Copyright © 2018 Antoine Clop. All rights reserved.
 //
 
-import UIKit
+import Foundation
+
+#if canImport(UIKit)
+    import UIKit
+#endif
 
 internal class RESTRequester {
     
@@ -52,11 +56,11 @@ internal class RESTRequester {
                 }
                 let allHeaders: Headers? = httpResponse?.allHeaderFields
                 let responseCode: HttpResponseCode = HttpResponseCode(httpResponse?.statusCode ?? -1)
-                Logger.info("Server responsed with code \(responseCode.codeValue) (\(responseCode.errorMessage() ?? "No description"))")
+                Logger.debug("Server responsed with code \(responseCode.codeValue) (\(responseCode.errorMessage() ?? "No description"))")
                 let errorValue: String? = error?.localizedDescription ?? responseCode.errorMessage()
                 handler(data, responseCode, allHeaders, errorValue)
             }
-            Logger.info("Requesting: \(url)")
+            Logger.debug("Requesting: \(url)")
             task.resume()
         }
         else {

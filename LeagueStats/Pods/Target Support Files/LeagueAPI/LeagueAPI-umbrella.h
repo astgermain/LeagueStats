@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "LeagueAPI.h"
 
 FOUNDATION_EXPORT double LeagueAPIVersionNumber;
 FOUNDATION_EXPORT const unsigned char LeagueAPIVersionString[];
