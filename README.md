@@ -3,7 +3,7 @@
 
 
 
-# - Milestone 4/Final Info -
+# - Milestone 4 -
 ## -- How to run --
 #### Compiled using xCode 10.1 on a virtual machine of Mac OS 10.14 Mojave(beta)
 #### Download and open LeagueStats.xcworkspace, and run. It should work hopefully
